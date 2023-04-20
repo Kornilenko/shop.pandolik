@@ -1,0 +1,224 @@
+<main>
+        <section class="login">
+          <div class="form-container">
+            <p>Register</p>
+            <form action="#">
+              <label for="email">Email *</label>
+                <input type="email" name="email">
+                  <label for="password">Password *</label>
+                   <input type="password" name="repeat_password">
+                    <label for="repeat_password">Repeat Password *</label>
+                      <input type="password" name="repeat_password">
+                    <label for="Number phone">Number phone</label>
+                    <input type="phone" name="phone" placeholder="Number phone">
+                     <input type="submit" value="Register">
+            </form>
+            <p>or <span><a href="\Shop sneakers\login regist\login.html">Log In</a></span></p>
+          </div>
+        </section>
+      </main>
+    <footer>
+      <div class="footer-wrapper default-container">
+        <div class="foot-item">
+          <p>Main Link</p>
+          
+      </div>
+      <div class="footer-social default-container">Follow us via social media:
+       <a href="https://www.youtube.com/channel/UC28uyAk_I-8F_1G3ffd2bQQ"><img src="img/social/social.png" alt="YouTUbe"></a>
+       <a href="https://www.instagram.com/pandochka_and_master/"><img src="img/social/social1.png" alt="Instagram"></a>
+       <a href="https://www.tiktok.com/pandochka_and_master/"><img src="img/social/social3.png" alt="TikTok"></a>
+       <a href="https://www.twitter.com/PANDOLIKP"><img src="img\icons\icon-twitter.svg" alt="Twitter"></a>
+       <a href="https://vk.com/tolik.kornilenko/"><img src="img/social/social6.png" alt="VK"></a>
+       <a href="mailto: kornilenkotolik7@gmail.com"><img src="img/social/socialgoogle.png" alt="E-Mail"></a>
+      </div>
+      <div class="footer-copyright">
+        <div class="default-container">
+          &copy;2023. <span>Автор проекта: Kornilenko Anatoliy</span>
+        </div>
+      </div>
+    </footer>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #0C0B0B;
+   color: #fff;
+   font-family: "Oswald", sans-serif;
+   overflow-x: hidden;
+}
+
+h1 {
+   
+   
+
+}
+input {
+   all: unset;
+   
+}
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+a {
+   color: #fff;
+   text-decoration: none;
+}
+.default-container {
+   max-width: 1716px;
+   margin: auto;
+}
+.default-container>p {
+   margin-top: 63px;
+
+   margin-bottom: 20px;
+}
+.login {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+   flex-direction: column;
+}
+
+.login .form-container {
+   width: 566px;
+   height: auto;
+   background-color: #161616;
+   padding: 27px 70px 27px 70px;
+}
+.login .form-container>p:first-child {
+   text-align: center;
+   font-size: 24px;
+   color: #aaa;
+}
+
+.login .form-container>form {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.login .form-container>form>input {
+   height: 43px;
+   background-color: #434343;
+   margin-bottom: 24px;
+}
+.login .form-container>form>label {
+   font-size: 16px;
+   color: #A3A3A3;
+}
+.login .form-container>form>input[type=submit] {
+   background-color: #FF501A;
+   width: 136px;
+   text-align: center;
+   margin: auto;
+   cursor: pointer;
+   font-size: 23px;
+   margin-top: 56px;
+   margin-bottom: 20px;
+}
+.login .form-container>p:last-child {
+   text-align: center;
+
+   font-size: 16px;
+   color: #747474;
+}
+.login .form-container>p:last-child>span {
+   color: #C1C1C1;
+}
+
+.login>p {
+   font-size: 16px;
+   color: #747474;
+   margin-top: 23px;
+}
+.login>p>span {
+   color: #C1C1C1;
+}
+footer {
+   margin-top: 364px;
+   
+}
+.footer-wrapper {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+   grid-auto-rows: auto;
+   gap: 23px;
+}
+.foot-item p {
+   color: #6A6A6A;
+   font-size: 18px;
+}
+.footer-social {
+
+   margin-top: 43px;
+}
+.footer-social p {
+   color: #6A6A6A;
+   font-size: 18px;
+}
+.footer-social a>img {
+   width: 32.56px;
+   height: 32.4;
+   margin-top: 9px;
+   margin-right: 16px;
+}
+.footer-copyright {
+   font-size: 16px;
+   color: #00FFFF;   
+   padding: 43px 4px 6px 0px;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   text-align: right;
+   width: 100%;
+}
+
+.default-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media(max-width: 375px) {
+  footer {
+   text-align: center;
+}
+}
+@media(max-width: 812px) {
+/*button {
+   font-size: 1rem;
+   width: auto;
+   height: auto;
+   padding: 1rem;
+}*/
+.next-main-slider {
+   justify-content: center;
+
+}
+.login .form-container {
+   width: auto;
+
+   margin: auto;
+}
+
+.login {
+   height: auto;
+   margin: 69px;
+}
+}
+@media(max-width: 1723px) {
+.default-container {
+   padding: 0 3% 0 3%;
+
+}
+}
+    </style>
+</body>
+</html>
